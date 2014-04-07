@@ -1,6 +1,6 @@
 require 'formula'
 
-class Glimmer3 < Formula
+class Glimmer < Formula
   homepage 'http://ccb.jhu.edu/software/glimmer/index.shtml'
   url 'http://ccb.jhu.edu/software/glimmer/glimmer302b.tar.gz'
   version "3.02b"
