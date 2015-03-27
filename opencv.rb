@@ -38,7 +38,7 @@ class Opencv < Formula
 
   depends_on :ant if build.with? "java"
   depends_on "cmake"      => :build
-  depends_on "eigen"      => :recommended
+  depends_on "eigen"      => :optional
   depends_on "gstreamer"  => :optional
   depends_on "gst-plugins-good" if build.with? "gstreamer"
   depends_on "jasper"     => :optional
@@ -47,7 +47,7 @@ class Opencv < Formula
   depends_on "libpng"
   depends_on "libtiff"
   depends_on "libdc1394"  => :optional
-  depends_on "openexr"    => :recommended
+  depends_on "openexr"    => :optional
   depends_on "openni"     => :optional
   depends_on "pkg-config" => :build
   depends_on "qt"         => :optional
